@@ -1,6 +1,6 @@
 body{
 	
-background-color:#171717;
+background-color: #131313;
 font-family: eurostile, sans-serif;
 }
 
@@ -89,7 +89,7 @@ h2 {
 font-weight: 600;
 color: #FFFFFF;
 letter-spacing: 3px;
-font-size: 2vw;
+font-size: 3vw;
 font-family: eurostile, sans-serif;
 font-style: normal;
 text-align: center;
@@ -213,6 +213,9 @@ padding-bottom: 3%;
 
 
 }
+
+
+
 
 
 
@@ -344,7 +347,7 @@ margin-right: 8px;
 .gameplay1-text{
 	
 float: left;
-width: 37%;
+width: 40%;
 margin-left: 8%;
 padding-top: 10%;
 
@@ -355,15 +358,15 @@ padding-top: 10%;
 float: right;
 width: 40%;
 padding-top: 10%;
-margin-right: 4%;
+margin-right: 8%;
 
 }
 
 .gameplay3-text{
 	
-float: right;
+float: left;
 width: 30%;
-margin-right: 4%;
+margin-left: 8%;
 padding-top: 5%;
 
 }
@@ -371,10 +374,19 @@ padding-top: 5%;
 
 .gameplayrows{
 
-
+background-color: #171717;
 height: 40vw;
 
 }
+
+.gameplay1-mobile{
+		
+width: 110%;	
+height: auto;
+display: none;
+	
+	}	
+
 
 .gameplay2-mobile{
 		
@@ -418,7 +430,7 @@ margin: 0 auto;
 
 .carousel_track-container{
 	
-background: #FF0004;
+
 
 height: 100%;
 position: relative;
@@ -484,6 +496,7 @@ z-index: 3;
 display: flex;
 justify-content: center;
 padding: 10px 0;
+transform: translate(0,-110%);
 
 }
 
@@ -823,6 +836,7 @@ width: 100%;
 	
 width: 100%;
 height: auto;
+display: none;
 
 
 
@@ -850,6 +864,16 @@ display: none;
 
 
 }
+    
+.gameplay1-mobile{
+		
+width: 110%;
+height: auto;
+display: inline-block;
+	
+	
+	}	    
+    
 	
 .gameplay2-mobile{
 		
@@ -899,6 +923,7 @@ padding-bottom: 5%
 height: 100vw;
 padding-bottom: 1em;
 display: inline;
+
 
 }	
 	
