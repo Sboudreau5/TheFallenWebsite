@@ -142,6 +142,12 @@ background-color: #121212;
 
 }
 
+button {
+
+background-color:rgba(0, 0, 0, 0);
+
+}
+
 .footnote{
 	
 right: 5%;
@@ -178,10 +184,8 @@ margin-bottom: 3%;
 	
 text-align: left;
 float: left;
-padding-left: 3%;
-padding-top: 7%;
-padding-bottom: 3%;	
-
+padding-left: 4%;
+padding-top: 4%;
 
 }
 
@@ -207,9 +211,8 @@ border-radius: 50%;
 	
 text-align: right;
 float: right;
-padding-right: 3%;
-padding-top: 7%;
-padding-bottom: 3%;	
+padding-right: 4%;
+padding-top: 4%;	
 
 
 }
@@ -338,7 +341,8 @@ float: left;
 
 height: 100%;
 float: right;
-margin-right: 8px;
+margin-right: -10px;
+
 
 
 
@@ -466,6 +470,7 @@ transform: translateY(-50%);
 border: 0;
 z-index: 2;
 cursor: pointer;
+
 	
 
 }
@@ -643,7 +648,8 @@ letter-spacing: 3px;
 font-size: 2.3vw;
 font-family: eurostile, sans-serif;
 font-style: normal;
-padding-top: 1%;
+padding-top: 4%;
+margin-bottom: 3%;
 
 
 }
@@ -658,14 +664,44 @@ font-size: 3vw;
 font-family: eurostile, sans-serif;
 font-weight: 400;
 font-style: normal;
-align-content: center;
-margin-bottom: 0;
+
+
 
 
 
 
 }
+    
+    
+.devbio-left P {
+	
+	
+color:#FFFFFF;
+font-size: 3vw;
+font-family: eurostile, sans-serif;
+font-weight: 400;
+font-style: normal;
+margin-top: 0%;
+margin-bottom: 3%;
 
+
+
+
+}
+    
+.devbio-right P {
+	
+	
+color:#FFFFFF;
+font-size: 3vw;
+font-family: eurostile, sans-serif;
+font-weight: 400;
+font-style: normal;
+margin-top: 0%;
+margin-bottom: 3%;    
+
+    
+    }
 
 footer {
 	
@@ -719,8 +755,8 @@ margin-bottom: 3%;
 	
 text-align: left;
 float: left;
-padding-left: 3%;
-padding-top: 3%;
+Padding-top: 0%;
+padding-left: 3%;    
 
 
 
@@ -748,8 +784,8 @@ border-radius: 50%;
 	
 text-align: right;
 float: right;
-padding-right: 3%;
-padding-top: 3%;
+Padding-top: 0%;
+padding-right: 3%; 
 
 
 
