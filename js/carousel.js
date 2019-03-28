@@ -13,10 +13,18 @@ const slideWidth = slides[0].getBoundingClientRect().width;
 
 
 const setSlidePosition = (slide, index) => {
-	slide.style.left = slideWidth * index + 'px';
+	//slide.style.left = slideWidth * index + 'px';
+	slide.style.left = document.querySelector('.carousel__slide').offsetWidth * index + 'px';
 };
 slides.forEach(setSlidePosition);
 
+window.addEventListener('resize', () => {
+	slides.forEach(setSlidePosition) 
+	
+	const targetSlide = track.querySelector('.current-slide');
+	track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
+	
+})
 
 const moveToSlide = (track, currentSlide, targetSlide) => {
 track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
@@ -38,10 +46,9 @@ if  (targetIndex === 0) {
 	} else if (targetIndex === slides.length - 1) {
 	prevButton.classList.remove('is-hidden');
     nextButton.classList.add('is-hidden');
-
 }  else {
 	prevButton.classList.remove('is-hidden');
-	nextButton.classlist.remove('is-hidden');
+	nextButton.classList.remove('is-hidden');
 	}	
 		
 }
@@ -59,6 +66,7 @@ prevButton.addEventListener('click', e => {
 moveToSlide(track, currentSlide, prevSlide);	
 updateDots(currentDot, prevDot);
 hideShowArrows(slides, prevButton, nextButton, prevIndex)
+
 
 });
 
@@ -103,7 +111,7 @@ const targetSlide = slides[targetIndex];
 	
 moveToSlide(track, currentSlide, targetSlide);	
 updateDots(currentDot, targetDot);
-hideShowArrow(slides, prevButton, nextButton, targetIndex);
+hideShowArrows(slides, prevButton, nextButton, targetIndex);
 			
 	
 })
