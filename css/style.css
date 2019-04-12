@@ -1,4 +1,12 @@
+html {
+    
+scroll-behavior: smooth;
+}
+
+
 body{
+    
+    
 	
 background-color: #131313;
 font-family: eurostile, sans-serif;
@@ -1268,7 +1276,7 @@ padding-right: 3%;
 
     .phil-background {
         
-    height: 85vw;
+    height: 94vw;
     }  
     
     
