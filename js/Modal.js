@@ -57,6 +57,15 @@ document.querySelector('.close5').addEventListener('click',
 	document.querySelector('.bg-modal5').style.display = 'none'							   
 });
 
+document.getElementById('kris-photo').addEventListener('click',
+	function() {
+	document.querySelector('.bg-modal6').style.display = 'flex'							   
+});
 
+
+document.querySelector('.close6').addEventListener('click',
+	function() {
+	document.querySelector('.bg-modal6').style.display = 'none'							   
+});
 
 
